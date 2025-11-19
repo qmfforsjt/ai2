@@ -73,8 +73,13 @@ CONTENT_BY_LABEL: dict[str, dict[str, list[str]]] = {
     #   "texts": ["짬뽕의 특징과 유래", "국물 맛 포인트", "지역별 스타일 차이"],
     #   "images": ["https://.../jjampong1.jpg", "https://.../jjampong2.jpg"],
     #   "videos": ["https://youtu.be/XXXXXXXXXXX"]
-    # },
-}
+    # {
+ labels[0] : {"texts" : [ "짜장면은 맛있어" ], "images" : ["https://m.health.chosun.com/site/data/img_dir/2024/08/02/2024080201848_0.jpg"] }
+ labels[1] : {"texts" : [ "짬뽕은 맛있어" ], "images" : [https://img1.daumcdn.net/thumb/R1280x0.fwebp/?fname=http://t1.daumcdn.net/brunch/service/user/8hW2/image/mEoL7MKBrAkCFFYHyOaGLvf73UI] }
+ labels[2] : {"texts" : [ "탕수육은 맛있어" ], "images" : [https://img.siksinhot.com/article/1711422146045324.jpeg] }
+ labels[3] : {"texts" : [ "중국식 냉은 맛있어" ], "images" : [https://www.kfoodtimes.com/news/photo/202106/16159_27527_3716.png] }
+
+},
 
 # ======================
 # 유틸
